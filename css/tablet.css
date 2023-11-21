@@ -1,0 +1,92 @@
+@media only screen and (max-width: 992px) {
+  /* Container */
+  section > .container {
+    width: 100%;
+    padding: 30px 20px;
+  }
+
+  .section-title {
+    font-size: 26px;
+  }
+
+  /* Navbar */
+  .border-hidden {
+    border-right: none !important;
+  }
+
+  #nav-bar .avatar {
+    display: none;
+  }
+  #nav-bar .avatar-placeholder {
+    display: none;
+  }
+
+  /* Lý lịch  */
+  #job-info .container {
+    gap: 20px;
+  }
+
+  #job-info .container-items {
+    width: 50%;
+  }
+
+  #job-info .time {
+    padding: 0;
+  }
+
+  /* Chứng chỉ  */
+  .certificate-item .last-item {
+    width: 50%;
+    padding-right: 80px;
+  }
+
+  /* Chứng chỉ  */
+  .certificate-item img {
+    width: 100%;
+  }
+
+  /* Dự án  */
+  .project-item {
+    margin-bottom: 45px;
+  }
+
+  .time-place-position {
+    align-items: start;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* Lý lịch  */
+  #job-info .container-items {
+    width: 100%;
+  }
+
+  /* Dự án  */
+  #project .container-item {
+    gap: 40px;
+  }
+
+  .project-item img {
+    width: 100%;
+  }
+
+  .time-place-position {
+    gap: 10px;
+  }
+
+  /* Chứng chỉ */
+  .certificate-item.last-item {
+    width: 50% !important;
+    padding-right: 40px;
+  }
+
+  .certificate-custom-container{
+    padding-right: 0;
+    width: 100%;
+  }
+
+  /* Footer */
+  #footer .container {
+    padding: 20px;
+  }
+}

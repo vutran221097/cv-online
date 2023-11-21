@@ -1,0 +1,74 @@
+@media only screen and (max-width: 767px) {
+  .horizon-line-custom {
+    display: block;
+  }
+
+  /* Chứng chỉ  */
+  .certificate-item img {
+    width: 100%;
+  }
+
+  .certificate-item {
+    align-items: center;
+  }
+
+  .certificate-item.last-item {
+    width: 100% !important;
+    padding-right: 0;
+  }
+
+  /* Footer  */
+  #footer span {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .vertical-line {
+    display: none;
+  }
+
+  /* Navbar */
+  #nav-bar .container{
+    margin-top: 20px;
+    border: none;
+  }
+
+  #nav-bar a{
+    border: none !important;
+    padding: 5px 20px;
+  }
+
+  /* Lý lịch  */
+  #job-info .container {
+    flex-direction: column !important;
+  }
+
+  /* Thông tin  */
+  #target {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  #personal-info {
+    padding-left: 0;
+  }
+
+  .target-container{
+    width: 100vw;
+    height: 50%;
+    top: 0;
+    z-index: -1;
+  }
+  
+  .personal-info-container{
+    width: 100vw;
+    height: 50%;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  /* Dự án */
+  .time-place-position {
+    gap: 5px !important;
+  }
+}
